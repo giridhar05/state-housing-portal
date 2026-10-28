@@ -1,0 +1,3311 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "System Admin",
+      "mobile": "9876543210",
+      "email": "admin@housingboard.gov",
+      "role": "System Administrator",
+      "password": "password123"
+    },
+    {
+      "id": "usr_super",
+      "name": "Super Admin",
+      "mobile": "9876543211",
+      "email": "super@housingboard.gov",
+      "role": "Super Admin",
+      "password": "password123"
+    },
+    {
+      "id": "usr_verify",
+      "name": "Officer Varma",
+      "mobile": "9876543212",
+      "email": "verify.varma@housingboard.gov",
+      "role": "Verification Officer",
+      "password": "password123"
+    },
+    {
+      "id": "usr_finance",
+      "name": "Officer Sharma",
+      "mobile": "9876543213",
+      "email": "finance.sharma@housingboard.gov",
+      "role": "Finance Officer",
+      "password": "password123"
+    },
+    {
+      "id": "usr_allot",
+      "name": "Officer Gupta",
+      "mobile": "9876543214",
+      "email": "allot.gupta@housingboard.gov",
+      "role": "Allotment Officer",
+      "password": "password123"
+    },
+    {
+      "id": "usr_app1",
+      "name": "Rajesh Kumar",
+      "mobile": "9812345670",
+      "email": "rajesh@gmail.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_app2",
+      "name": "Priya Patel",
+      "mobile": "9812345671",
+      "email": "priya@gmail.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_app3",
+      "name": "Amit Sharma",
+      "mobile": "9812345672",
+      "email": "amit@gmail.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_1",
+      "name": "Applicant 1",
+      "mobile": "9999999001",
+      "email": "applicant1@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_2",
+      "name": "Applicant 2",
+      "mobile": "9999999002",
+      "email": "applicant2@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_3",
+      "name": "Applicant 3",
+      "mobile": "9999999003",
+      "email": "applicant3@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_4",
+      "name": "Applicant 4",
+      "mobile": "9999999004",
+      "email": "applicant4@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_5",
+      "name": "Applicant 5",
+      "mobile": "9999999005",
+      "email": "applicant5@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_6",
+      "name": "Applicant 6",
+      "mobile": "9999999006",
+      "email": "applicant6@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_7",
+      "name": "Applicant 7",
+      "mobile": "9999999007",
+      "email": "applicant7@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_8",
+      "name": "Applicant 8",
+      "mobile": "9999999008",
+      "email": "applicant8@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_9",
+      "name": "Applicant 9",
+      "mobile": "9999999009",
+      "email": "applicant9@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_10",
+      "name": "Applicant 10",
+      "mobile": "9999999010",
+      "email": "applicant10@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_11",
+      "name": "Applicant 11",
+      "mobile": "9999999011",
+      "email": "applicant11@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_12",
+      "name": "Applicant 12",
+      "mobile": "9999999012",
+      "email": "applicant12@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_13",
+      "name": "Applicant 13",
+      "mobile": "9999999013",
+      "email": "applicant13@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_14",
+      "name": "Applicant 14",
+      "mobile": "9999999014",
+      "email": "applicant14@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    },
+    {
+      "id": "usr_test_15",
+      "name": "Applicant 15",
+      "mobile": "9999999015",
+      "email": "applicant15@test.com",
+      "role": "Applicant",
+      "password": "password123"
+    }
+  ],
+  "schemes": [
+    {
+      "id": "sch_pmay_01",
+      "name": "Pradhan Mantri Awas Yojana - Phase II",
+      "code": "PMAY-II-2026",
+      "location": "Green Valley, Sector 4",
+      "district": "Central",
+      "type": "2BHK",
+      "unitsCount": 5,
+      "reservationRules": {
+        "scst": 20,
+        "bc": 30,
+        "ph": 10,
+        "ex": 10,
+        "general": 30
+      },
+      "rules": [
+        {
+          "id": "rule_income",
+          "key": "income",
+          "label": "Annual Income Band",
+          "type": "band",
+          "description": "Lower income applicants receive higher priority points",
+          "bands": [
+            {
+              "max": 300000,
+              "points": 35,
+              "label": "EWS (≤ ₹3.0 Lakhs)"
+            },
+            {
+              "max": 600000,
+              "points": 25,
+              "label": "LIG (≤ ₹6.0 Lakhs)"
+            },
+            {
+              "max": 1200000,
+              "points": 15,
+              "label": "MIG (≤ ₹12.0 Lakhs)"
+            },
+            {
+              "max": 999999999,
+              "points": 5,
+              "label": "HIG (> ₹12.0 Lakhs)"
+            }
+          ]
+        },
+        {
+          "id": "rule_category",
+          "key": "category",
+          "label": "Social Quota Category",
+          "type": "match",
+          "description": "Points assigned based on affirmative social quotas",
+          "options": {
+            "SC/ST": 30,
+            "BC": 20,
+            "General": 10
+          }
+        },
+        {
+          "id": "rule_ph",
+          "key": "ph",
+          "label": "Differently Abled (PH)",
+          "type": "boolean",
+          "description": "Additional priority points for persons with benchmark disability",
+          "points": 20
+        },
+        {
+          "id": "rule_ex",
+          "key": "ex",
+          "label": "Ex-Servicemen / Defense",
+          "type": "boolean",
+          "description": "Points for armed forces veterans and families",
+          "points": 15
+        },
+        {
+          "id": "rule_single_woman",
+          "key": "singleWoman",
+          "label": "Single-Woman / Widow Household",
+          "type": "boolean",
+          "description": "Social security priority points for female heads of household",
+          "points": 15
+        },
+        {
+          "id": "rule_residence",
+          "key": "residenceYears",
+          "label": "Years of State Residence",
+          "type": "linear",
+          "description": "2 points per completed year of residence (max 20 points)",
+          "pointsPerUnit": 2,
+          "maxPoints": 20
+        }
+      ],
+      "ruleVersion": 1,
+      "incomeLimit": 600000,
+      "startDate": "2026-06-01",
+      "endDate": "2026-08-31",
+      "allotmentDate": "2026-09-15",
+      "waitlistRules": {
+        "maxWaitlistPercent": 200
+      },
+      "status": "Allotment Completed"
+    },
+    {
+      "id": "sch_mvhs_02",
+      "name": "Metro Vista Housing Society",
+      "code": "MVHS-2026",
+      "location": "Salt Lake, Block C",
+      "district": "East",
+      "type": "3BHK",
+      "unitsCount": 10,
+      "reservationRules": {
+        "scst": 15,
+        "bc": 25,
+        "ph": 5,
+        "ex": 5,
+        "general": 50
+      },
+      "rules": [
+        {
+          "id": "rule_income",
+          "key": "income",
+          "label": "Annual Income Band",
+          "type": "band",
+          "description": "Lower income applicants receive higher priority points",
+          "bands": [
+            {
+              "max": 300000,
+              "points": 35,
+              "label": "EWS (≤ ₹3.0 Lakhs)"
+            },
+            {
+              "max": 600000,
+              "points": 25,
+              "label": "LIG (≤ ₹6.0 Lakhs)"
+            },
+            {
+              "max": 1200000,
+              "points": 15,
+              "label": "MIG (≤ ₹12.0 Lakhs)"
+            },
+            {
+              "max": 999999999,
+              "points": 5,
+              "label": "HIG (> ₹12.0 Lakhs)"
+            }
+          ]
+        },
+        {
+          "id": "rule_category",
+          "key": "category",
+          "label": "Social Quota Category",
+          "type": "match",
+          "description": "Points assigned based on affirmative social quotas",
+          "options": {
+            "SC/ST": 30,
+            "BC": 20,
+            "General": 10
+          }
+        },
+        {
+          "id": "rule_ph",
+          "key": "ph",
+          "label": "Differently Abled (PH)",
+          "type": "boolean",
+          "description": "Additional priority points for persons with benchmark disability",
+          "points": 20
+        },
+        {
+          "id": "rule_ex",
+          "key": "ex",
+          "label": "Ex-Servicemen / Defense",
+          "type": "boolean",
+          "description": "Points for armed forces veterans and families",
+          "points": 15
+        },
+        {
+          "id": "rule_single_woman",
+          "key": "singleWoman",
+          "label": "Single-Woman / Widow Household",
+          "type": "boolean",
+          "description": "Social security priority points for female heads of household",
+          "points": 15
+        },
+        {
+          "id": "rule_residence",
+          "key": "residenceYears",
+          "label": "Years of State Residence",
+          "type": "linear",
+          "description": "2 points per completed year of residence (max 20 points)",
+          "pointsPerUnit": 2,
+          "maxPoints": 20
+        }
+      ],
+      "ruleVersion": 1,
+      "incomeLimit": 1200000,
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30",
+      "allotmentDate": "2026-10-15",
+      "waitlistRules": {
+        "maxWaitlistPercent": 100
+      },
+      "status": "Active"
+    },
+    {
+      "id": "sch_test_01",
+      "name": "Test Heights Scheme",
+      "code": "THS-TEST",
+      "location": "Test Sector",
+      "district": "Test District",
+      "type": "2BHK",
+      "unitsCount": 5,
+      "reservationRules": {
+        "scst": 20,
+        "bc": 20,
+        "ph": 0,
+        "ex": 0,
+        "general": 60
+      },
+      "incomeLimit": 500000,
+      "status": "Active",
+      "rules": [
+        {
+          "id": "rule_income",
+          "key": "income",
+          "label": "Annual Income Band",
+          "type": "band",
+          "description": "Lower income applicants receive higher priority points",
+          "bands": [
+            {
+              "max": 300000,
+              "points": 35,
+              "label": "EWS (≤ ₹3.0 Lakhs)"
+            },
+            {
+              "max": 600000,
+              "points": 25,
+              "label": "LIG (≤ ₹6.0 Lakhs)"
+            },
+            {
+              "max": 1200000,
+              "points": 15,
+              "label": "MIG (≤ ₹12.0 Lakhs)"
+            },
+            {
+              "max": 999999999,
+              "points": 5,
+              "label": "HIG (> ₹12.0 Lakhs)"
+            }
+          ]
+        },
+        {
+          "id": "rule_category",
+          "key": "category",
+          "label": "Social Quota Category",
+          "type": "match",
+          "description": "Points assigned based on affirmative social quotas",
+          "options": {
+            "SC/ST": 30,
+            "BC": 20,
+            "General": 10
+          }
+        },
+        {
+          "id": "rule_ph",
+          "key": "ph",
+          "label": "Differently Abled (PH)",
+          "type": "boolean",
+          "description": "Additional priority points for persons with benchmark disability",
+          "points": 20
+        },
+        {
+          "id": "rule_ex",
+          "key": "ex",
+          "label": "Ex-Servicemen / Defense",
+          "type": "boolean",
+          "description": "Points for armed forces veterans and families",
+          "points": 15
+        },
+        {
+          "id": "rule_single_woman",
+          "key": "singleWoman",
+          "label": "Single-Woman / Widow Household",
+          "type": "boolean",
+          "description": "Social security priority points for female heads of household",
+          "points": 15
+        },
+        {
+          "id": "rule_residence",
+          "key": "residenceYears",
+          "label": "Years of State Residence",
+          "type": "linear",
+          "description": "2 points per completed year of residence (max 20 points)",
+          "pointsPerUnit": 2,
+          "maxPoints": 20
+        }
+      ],
+      "ruleVersion": 2
+    }
+  ],
+  "units": [
+    {
+      "id": "unt_pmay_1",
+      "schemeId": "sch_pmay_01",
+      "block": "Block A",
+      "unitNumber": "A-101",
+      "status": "allotted",
+      "allottedTo": "usr_app1"
+    },
+    {
+      "id": "unt_pmay_2",
+      "schemeId": "sch_pmay_01",
+      "block": "Block A",
+      "unitNumber": "A-102",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_pmay_3",
+      "schemeId": "sch_pmay_01",
+      "block": "Block A",
+      "unitNumber": "A-103",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_pmay_4",
+      "schemeId": "sch_pmay_01",
+      "block": "Block B",
+      "unitNumber": "B-101",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_pmay_5",
+      "schemeId": "sch_pmay_01",
+      "block": "Block B",
+      "unitNumber": "B-102",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_1",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 1",
+      "unitNumber": "101",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_2",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 1",
+      "unitNumber": "102",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_3",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 1",
+      "unitNumber": "201",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_4",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 1",
+      "unitNumber": "202",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_5",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 2",
+      "unitNumber": "301",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_6",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 2",
+      "unitNumber": "302",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_7",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 2",
+      "unitNumber": "401",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_8",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 2",
+      "unitNumber": "402",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_9",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 3",
+      "unitNumber": "501",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_mvhs_10",
+      "schemeId": "sch_mvhs_02",
+      "block": "Tower 3",
+      "unitNumber": "502",
+      "status": "vacant",
+      "allottedTo": null
+    },
+    {
+      "id": "unt_test_1",
+      "schemeId": "sch_test_01",
+      "block": "Block A",
+      "unitNumber": "A-101",
+      "status": "allotted",
+      "allottedTo": "usr_test_14"
+    },
+    {
+      "id": "unt_test_2",
+      "schemeId": "sch_test_01",
+      "block": "Block A",
+      "unitNumber": "A-102",
+      "status": "allotted",
+      "allottedTo": "usr_test_15"
+    },
+    {
+      "id": "unt_test_3",
+      "schemeId": "sch_test_01",
+      "block": "Block A",
+      "unitNumber": "A-103",
+      "status": "allotted",
+      "allottedTo": "usr_test_11"
+    },
+    {
+      "id": "unt_test_4",
+      "schemeId": "sch_test_01",
+      "block": "Block A",
+      "unitNumber": "A-104",
+      "status": "allotted",
+      "allottedTo": "usr_test_12"
+    },
+    {
+      "id": "unt_test_5",
+      "schemeId": "sch_test_01",
+      "block": "Block A",
+      "unitNumber": "A-105",
+      "status": "allotted",
+      "allottedTo": "usr_test_13"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_test_usr_test_1",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_1",
+      "personalDetails": {
+        "fullName": "Applicant 1",
+        "age": "32",
+        "aadhaar": "123456789000"
+      },
+      "income": 250000,
+      "category": "SC/ST",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Cancelled",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 75,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "SC/ST",
+          "points": 30,
+          "reason": "Selected category: SC/ST (30 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 1,
+      "allottedUnitId": null,
+      "allotmentReason": "SC/ST Quota",
+      "allottedDate": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "app_test_usr_test_2",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_2",
+      "personalDetails": {
+        "fullName": "Applicant 2",
+        "age": "32",
+        "aadhaar": "123456789001"
+      },
+      "income": 250000,
+      "category": "SC/ST",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 75,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "SC/ST",
+          "points": 30,
+          "reason": "Selected category: SC/ST (30 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-001"
+    },
+    {
+      "id": "app_test_usr_test_3",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_3",
+      "personalDetails": {
+        "fullName": "Applicant 3",
+        "age": "32",
+        "aadhaar": "123456789002"
+      },
+      "income": 250000,
+      "category": "SC/ST",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 75,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "SC/ST",
+          "points": 30,
+          "reason": "Selected category: SC/ST (30 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-002"
+    },
+    {
+      "id": "app_test_usr_test_4",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_4",
+      "personalDetails": {
+        "fullName": "Applicant 4",
+        "age": "32",
+        "aadhaar": "123456789003"
+      },
+      "income": 250000,
+      "category": "SC/ST",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 75,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "SC/ST",
+          "points": 30,
+          "reason": "Selected category: SC/ST (30 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-003"
+    },
+    {
+      "id": "app_test_usr_test_5",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_5",
+      "personalDetails": {
+        "fullName": "Applicant 5",
+        "age": "32",
+        "aadhaar": "123456789004"
+      },
+      "income": 250000,
+      "category": "SC/ST",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 75,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "SC/ST",
+          "points": 30,
+          "reason": "Selected category: SC/ST (30 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-004"
+    },
+    {
+      "id": "app_test_usr_test_6",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_6",
+      "personalDetails": {
+        "fullName": "Applicant 6",
+        "age": "32",
+        "aadhaar": "123456789005"
+      },
+      "income": 250000,
+      "category": "BC",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 65,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "BC",
+          "points": 20,
+          "reason": "Selected category: BC (20 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-005"
+    },
+    {
+      "id": "app_test_usr_test_7",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_7",
+      "personalDetails": {
+        "fullName": "Applicant 7",
+        "age": "32",
+        "aadhaar": "123456789006"
+      },
+      "income": 250000,
+      "category": "BC",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 65,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "BC",
+          "points": 20,
+          "reason": "Selected category: BC (20 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-006"
+    },
+    {
+      "id": "app_test_usr_test_8",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_8",
+      "personalDetails": {
+        "fullName": "Applicant 8",
+        "age": "32",
+        "aadhaar": "123456789007"
+      },
+      "income": 250000,
+      "category": "BC",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 65,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "BC",
+          "points": 20,
+          "reason": "Selected category: BC (20 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-007"
+    },
+    {
+      "id": "app_test_usr_test_9",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_9",
+      "personalDetails": {
+        "fullName": "Applicant 9",
+        "age": "32",
+        "aadhaar": "123456789008"
+      },
+      "income": 250000,
+      "category": "BC",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Waitlisted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 65,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "BC",
+          "points": 20,
+          "reason": "Selected category: BC (20 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": "WL-008"
+    },
+    {
+      "id": "app_test_usr_test_10",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_10",
+      "personalDetails": {
+        "fullName": "Applicant 10",
+        "age": "32",
+        "aadhaar": "123456789009"
+      },
+      "income": 250000,
+      "category": "BC",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Cancelled",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 65,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "BC",
+          "points": 20,
+          "reason": "Selected category: BC (20 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 1,
+      "allottedUnitId": null,
+      "allotmentReason": "BC Quota",
+      "allottedDate": "2026-10-09T02:51:54.639Z",
+      "offerStatus": "Cancelled",
+      "cancellationReason": "Document Discrepancy Found in Post-Audit",
+      "cancellationDate": "2026-10-09T03:30:51.687Z"
+    },
+    {
+      "id": "app_test_usr_test_11",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_11",
+      "personalDetails": {
+        "fullName": "Applicant 11",
+        "age": "32",
+        "aadhaar": "123456789010"
+      },
+      "income": 250000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Allotted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 55,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "allottedUnitId": "unt_test_3",
+      "allotmentReason": "General Pool",
+      "allottedDate": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "app_test_usr_test_12",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_12",
+      "personalDetails": {
+        "fullName": "Applicant 12",
+        "age": "32",
+        "aadhaar": "123456789011"
+      },
+      "income": 250000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Allotted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 55,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "allottedUnitId": "unt_test_4",
+      "allotmentReason": "General Pool",
+      "allottedDate": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "app_test_usr_test_13",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_13",
+      "personalDetails": {
+        "fullName": "Applicant 13",
+        "age": "32",
+        "aadhaar": "123456789012"
+      },
+      "income": 250000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Allotted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 55,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "allottedUnitId": "unt_test_5",
+      "allotmentReason": "General Pool",
+      "allottedDate": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "app_test_usr_test_14",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_14",
+      "personalDetails": {
+        "fullName": "Applicant 14",
+        "age": "32",
+        "aadhaar": "123456789013"
+      },
+      "income": 250000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Allotted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 55,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": null,
+      "allottedUnitId": "unt_test_1",
+      "allotmentReason": "Waitlist Promotion"
+    },
+    {
+      "id": "app_test_usr_test_15",
+      "schemeId": "sch_test_01",
+      "schemeName": "Test Heights Scheme",
+      "schemeCode": "THS-TEST",
+      "userId": "usr_test_15",
+      "personalDetails": {
+        "fullName": "Applicant 15",
+        "age": "32",
+        "aadhaar": "123456789014"
+      },
+      "income": 250000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": false,
+        "ex": false
+      },
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "aadhaar.pdf",
+          "status": "Verified"
+        },
+        {
+          "type": "income_certificate",
+          "name": "income.pdf",
+          "status": "Verified"
+        }
+      ],
+      "status": "Allotted",
+      "createdAt": "2026-10-09T02:51:54.617Z",
+      "score": 55,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 250000,
+          "points": 35,
+          "reason": "Income of ₹2,50,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 2,
+      "waitlistRank": null,
+      "allottedUnitId": "unt_test_2",
+      "allotmentReason": "Waitlist Promotion (WL-1, Score: 55 pts)",
+      "allottedDate": "2026-10-09T03:30:51.706Z",
+      "offerStatus": "Offered",
+      "offerIssuedAt": "2026-10-09T03:30:51.706Z",
+      "offerExpiresAt": "2026-10-12T03:30:51.706Z"
+    },
+    {
+      "id": "app_1791516463783",
+      "schemeId": "sch_pmay_01",
+      "schemeName": "Pradhan Mantri Awas Yojana - Phase II",
+      "schemeCode": "PMAY-II-2026",
+      "userId": "usr_app1",
+      "personalDetails": {
+        "fullName": "Rajesh Kumar",
+        "age": "30",
+        "aadhaar": "123456789012",
+        "singleWoman": false,
+        "residenceYears": 5
+      },
+      "income": 100000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": true,
+        "ex": false
+      },
+      "score": 75,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 100000,
+          "points": 35,
+          "reason": "Income of ₹1,00,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": true,
+          "points": 20,
+          "reason": "Special category claim verified (+20 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 1,
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "identity_proof_proof.pdf",
+          "path": "uploads/mock_identity_proof.pdf",
+          "status": "Verified",
+          "remarks": ""
+        },
+        {
+          "type": "income_certificate",
+          "name": "income_certificate_proof.pdf",
+          "path": "uploads/mock_income_certificate.pdf",
+          "status": "Verified",
+          "remarks": ""
+        },
+        {
+          "type": "ph_certificate",
+          "name": "ph_certificate_proof.pdf",
+          "path": "uploads/mock_ph_certificate.pdf",
+          "status": "Verified",
+          "remarks": ""
+        }
+      ],
+      "status": "Allotted",
+      "createdAt": "2026-10-09T03:27:43.783Z",
+      "updatedAt": "2026-10-12T05:19:12.495Z",
+      "allottedUnitId": "unt_pmay_1",
+      "allotmentReason": "PH Priority Quota (Score: 75)",
+      "allottedDate": "2026-10-12T10:36:26.999Z",
+      "offerStatus": "Offered",
+      "offerIssuedAt": "2026-10-12T10:36:26.999Z",
+      "offerExpiresAt": "2026-10-15T10:36:26.999Z"
+    },
+    {
+      "id": "app_1791782273308",
+      "schemeId": "sch_mvhs_02",
+      "schemeName": "Metro Vista Housing Society",
+      "schemeCode": "MVHS-2026",
+      "userId": "usr_app1",
+      "personalDetails": {
+        "fullName": "Rajesh Kumar",
+        "age": "30",
+        "aadhaar": "123456789120",
+        "singleWoman": false,
+        "residenceYears": 0
+      },
+      "income": 100000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": true,
+        "ex": false
+      },
+      "score": 65,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 100000,
+          "points": 35,
+          "reason": "Income of ₹1,00,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": true,
+          "points": 20,
+          "reason": "Special category claim verified (+20 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 0,
+          "points": 0,
+          "reason": "0 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 1,
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "identity_proof_proof.pdf",
+          "path": "uploads/mock_identity_proof.pdf",
+          "status": "Pending",
+          "remarks": ""
+        },
+        {
+          "type": "income_certificate",
+          "name": "income_certificate_proof.pdf",
+          "path": "uploads/mock_income_certificate.pdf",
+          "status": "Pending",
+          "remarks": ""
+        },
+        {
+          "type": "ph_certificate",
+          "name": "ph_certificate_proof.pdf",
+          "path": "uploads/mock_ph_certificate.pdf",
+          "status": "Pending",
+          "remarks": ""
+        }
+      ],
+      "status": "Payment Verified",
+      "createdAt": "2026-10-12T05:17:53.308Z",
+      "updatedAt": "2026-10-12T05:18:23.970Z"
+    },
+    {
+      "id": "app_1791801351438",
+      "schemeId": "sch_mvhs_02",
+      "schemeName": "Metro Vista Housing Society",
+      "schemeCode": "MVHS-2026",
+      "userId": "usr_app2",
+      "personalDetails": {
+        "fullName": "Priya Patel",
+        "age": "30",
+        "aadhaar": "123456789120",
+        "singleWoman": false,
+        "residenceYears": 5
+      },
+      "income": 100000,
+      "category": "General",
+      "reservationClaims": {
+        "ph": true,
+        "ex": false
+      },
+      "score": 75,
+      "scoreBreakdown": [
+        {
+          "ruleId": "rule_income",
+          "ruleName": "Annual Income Band",
+          "ruleType": "band",
+          "input": 100000,
+          "points": 35,
+          "reason": "Income of ₹1,00,000 falls in EWS (≤ ₹3.0 Lakhs)"
+        },
+        {
+          "ruleId": "rule_category",
+          "ruleName": "Social Quota Category",
+          "ruleType": "match",
+          "input": "General",
+          "points": 10,
+          "reason": "Selected category: General (10 points)"
+        },
+        {
+          "ruleId": "rule_ph",
+          "ruleName": "Differently Abled (PH)",
+          "ruleType": "boolean",
+          "input": true,
+          "points": 20,
+          "reason": "Special category claim verified (+20 pts)"
+        },
+        {
+          "ruleId": "rule_ex",
+          "ruleName": "Ex-Servicemen / Defense",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_single_woman",
+          "ruleName": "Single-Woman / Widow Household",
+          "ruleType": "boolean",
+          "input": false,
+          "points": 0,
+          "reason": "Not claimed (0 pts)"
+        },
+        {
+          "ruleId": "rule_residence",
+          "ruleName": "Years of State Residence",
+          "ruleType": "linear",
+          "input": 5,
+          "points": 10,
+          "reason": "5 years residence × 2 pts/yr (capped at 20)"
+        }
+      ],
+      "ruleVersion": 1,
+      "documents": [
+        {
+          "type": "identity_proof",
+          "name": "identity_proof_proof.pdf",
+          "path": "uploads/mock_identity_proof.pdf",
+          "status": "Verified",
+          "remarks": ""
+        },
+        {
+          "type": "income_certificate",
+          "name": "income_certificate_proof.pdf",
+          "path": "uploads/mock_income_certificate.pdf",
+          "status": "Verified",
+          "remarks": ""
+        },
+        {
+          "type": "ph_certificate",
+          "name": "ph_certificate_proof.pdf",
+          "path": "uploads/mock_ph_certificate.pdf",
+          "status": "Verified",
+          "remarks": ""
+        }
+      ],
+      "status": "Eligible",
+      "createdAt": "2026-10-12T10:35:51.438Z",
+      "updatedAt": "2026-10-12T10:37:16.164Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_1791516471289",
+      "applicationId": "app_1791516463783",
+      "schemeId": "sch_pmay_01",
+      "userId": "usr_app1",
+      "amount": 500,
+      "type": "Application Fee",
+      "status": "Success",
+      "transactionId": "TXN223018040",
+      "createdAt": "2026-10-09T03:27:51.290Z"
+    },
+    {
+      "id": "pay_1791782303958",
+      "applicationId": "app_1791782273308",
+      "schemeId": "sch_mvhs_02",
+      "userId": "usr_app1",
+      "amount": 500,
+      "type": "Application Fee",
+      "status": "Success",
+      "transactionId": "TXN128331000",
+      "createdAt": "2026-10-12T05:18:23.958Z"
+    },
+    {
+      "id": "pay_1791801359691",
+      "applicationId": "app_1791801351438",
+      "schemeId": "sch_mvhs_02",
+      "userId": "usr_app2",
+      "amount": 500,
+      "type": "Application Fee",
+      "status": "Success",
+      "transactionId": "TXN964195114",
+      "createdAt": "2026-10-12T10:35:59.691Z"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "ver_1791782352495",
+      "applicationId": "app_1791516463783",
+      "officerId": "usr_verify",
+      "status": "Verified",
+      "remarks": "",
+      "createdAt": "2026-10-12T05:19:12.495Z"
+    },
+    {
+      "id": "ver_1791801436164",
+      "applicationId": "app_1791801351438",
+      "officerId": "usr_verify",
+      "status": "Verified",
+      "remarks": "",
+      "createdAt": "2026-10-12T10:37:16.164Z"
+    }
+  ],
+  "allotments": [
+    {
+      "id": "alt_1791801387011",
+      "schemeId": "sch_pmay_01",
+      "allottedCount": 1,
+      "waitlistCount": 0,
+      "officerId": "usr_allot",
+      "offerDeadline": "2026-10-15T10:36:26.999Z",
+      "createdAt": "2026-10-12T10:36:26.999Z"
+    }
+  ],
+  "waitlists": [
+    {
+      "id": "wl_test_0",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_14",
+      "userId": "usr_test_14",
+      "originalRank": 1,
+      "currentRank": 1,
+      "status": "Promoted",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_1",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_15",
+      "userId": "usr_test_15",
+      "originalRank": 2,
+      "currentRank": 1,
+      "status": "Promoted",
+      "createdAt": "2026-10-09T02:51:54.639Z",
+      "promotionUnitId": "unt_test_2",
+      "promotedAt": "2026-10-09T03:30:51.706Z"
+    },
+    {
+      "id": "wl_test_2",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_2",
+      "userId": "usr_test_2",
+      "originalRank": 3,
+      "currentRank": 1,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_3",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_3",
+      "userId": "usr_test_3",
+      "originalRank": 4,
+      "currentRank": 2,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_4",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_4",
+      "userId": "usr_test_4",
+      "originalRank": 5,
+      "currentRank": 3,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_5",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_5",
+      "userId": "usr_test_5",
+      "originalRank": 6,
+      "currentRank": 4,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_6",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_6",
+      "userId": "usr_test_6",
+      "originalRank": 7,
+      "currentRank": 5,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_7",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_7",
+      "userId": "usr_test_7",
+      "originalRank": 8,
+      "currentRank": 6,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_8",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_8",
+      "userId": "usr_test_8",
+      "originalRank": 9,
+      "currentRank": 7,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    },
+    {
+      "id": "wl_test_9",
+      "schemeId": "sch_test_01",
+      "applicationId": "app_test_usr_test_9",
+      "userId": "usr_test_9",
+      "originalRank": 10,
+      "currentRank": 8,
+      "status": "Active",
+      "createdAt": "2026-10-09T02:51:54.639Z"
+    }
+  ],
+  "vacancies": [
+    {
+      "id": "vac_1791516651695",
+      "schemeId": "sch_test_01",
+      "unitId": "unt_test_2",
+      "previousAllotmentId": "app_test_usr_test_10",
+      "reason": "Document Discrepancy Found in Post-Audit",
+      "createdAt": "2026-10-09T03:30:51.695Z"
+    }
+  ],
+  "notifications": [],
+  "audit_logs": [
+    {
+      "id": "aud_1793161969286_ox333",
+      "seq": 36,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "f3de0592aa6911e0e4c1b4a1b97f8ad9c6f65fc84f43eb08112eb056ffdc17be",
+      "prevHash": "0750f4ab6e077ab67a29382f0f9ff12f4b098300da8c2518db63af26502b2569",
+      "timestamp": "2026-10-28T04:32:49.284Z"
+    },
+    {
+      "id": "aud_1791801413115_sntu9",
+      "seq": 35,
+      "userId": "usr_verify",
+      "userName": "Officer Varma",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "0750f4ab6e077ab67a29382f0f9ff12f4b098300da8c2518db63af26502b2569",
+      "prevHash": "befa3524c7c11148d8fe958d4c6bb2e01bfc359d0717a652c2967b3a9d348da2",
+      "timestamp": "2026-10-12T10:36:53.115Z"
+    },
+    {
+      "id": "aud_1791801408161_ld4xp",
+      "seq": 34,
+      "userId": "usr_allot",
+      "userName": "Officer Gupta",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "befa3524c7c11148d8fe958d4c6bb2e01bfc359d0717a652c2967b3a9d348da2",
+      "prevHash": "b0c25fef652254db9c3cede2c96fc835a60bf3795b83e5c3d89338fe89e2c136",
+      "timestamp": "2026-10-12T10:36:48.160Z"
+    },
+    {
+      "id": "aud_1791801387028_ayzdw",
+      "seq": 33,
+      "userId": "usr_allot",
+      "userName": "Officer Gupta",
+      "action": "ALLOTMENT_EXECUTE",
+      "details": "{\"allotmentId\":\"alt_1791801387011\",\"schemeId\":\"sch_pmay_01\",\"schemeName\":\"Pradhan Mantri Awas Yojana - Phase II\",\"allottedCount\":1,\"waitlistCount\":0,\"topScore\":75,\"offerDeadline\":\"2026-10-15T10:36:26.999Z\"}",
+      "hash": "b0c25fef652254db9c3cede2c96fc835a60bf3795b83e5c3d89338fe89e2c136",
+      "prevHash": "0e2d36995fd85014a9c6ba9521bdf4f05201c530474769f1f7d5680adca0ed80",
+      "timestamp": "2026-10-12T10:36:27.027Z"
+    },
+    {
+      "id": "aud_1791801372222_fboc3",
+      "seq": 32,
+      "userId": "usr_allot",
+      "userName": "Officer Gupta",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "0e2d36995fd85014a9c6ba9521bdf4f05201c530474769f1f7d5680adca0ed80",
+      "prevHash": "9d2fecde085f7165b5ee641db0aaf302d46c8d3a9e909a9a6449512072d95606",
+      "timestamp": "2026-10-12T10:36:12.222Z"
+    },
+    {
+      "id": "aud_1791801359715_knxr1",
+      "seq": 31,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "PAYMENT_SUCCESS",
+      "details": "{\"applicationId\":\"app_1791801351438\",\"amount\":500,\"paymentType\":\"Application Fee\",\"transactionId\":\"TXN964195114\"}",
+      "hash": "9d2fecde085f7165b5ee641db0aaf302d46c8d3a9e909a9a6449512072d95606",
+      "prevHash": "65e2b6fb5ae657060ae0116798c81fa8e48395ddf528ae9bc1c035b8a2ce4952",
+      "timestamp": "2026-10-12T10:35:59.715Z"
+    },
+    {
+      "id": "aud_1791801351550_rszod",
+      "seq": 30,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791801351438\",\"docType\":\"ph_certificate\",\"docName\":\"ph_certificate_proof.pdf\"}",
+      "hash": "65e2b6fb5ae657060ae0116798c81fa8e48395ddf528ae9bc1c035b8a2ce4952",
+      "prevHash": "c86254a2bed4a5137bc420acc9eb4a5facc0c6bd7a13068ed4c6ae16b301eee9",
+      "timestamp": "2026-10-12T10:35:51.549Z"
+    },
+    {
+      "id": "aud_1791801351521_742c7",
+      "seq": 29,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791801351438\",\"docType\":\"income_certificate\",\"docName\":\"income_certificate_proof.pdf\"}",
+      "hash": "c86254a2bed4a5137bc420acc9eb4a5facc0c6bd7a13068ed4c6ae16b301eee9",
+      "prevHash": "78c4a6113a35789d0c0a806522dc7eec68efdec44d41d828095d661925021369",
+      "timestamp": "2026-10-12T10:35:51.521Z"
+    },
+    {
+      "id": "aud_1791801351493_27btq",
+      "seq": 28,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791801351438\",\"docType\":\"identity_proof\",\"docName\":\"identity_proof_proof.pdf\"}",
+      "hash": "78c4a6113a35789d0c0a806522dc7eec68efdec44d41d828095d661925021369",
+      "prevHash": "8d9d5c3a3a05370ed3b14dd512994e4adfacc6205688cb5d9370acdd82fbfba9",
+      "timestamp": "2026-10-12T10:35:51.493Z"
+    },
+    {
+      "id": "aud_1791801351451_o9f5g",
+      "seq": 27,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "APPLICATION_DRAFT_CREATE",
+      "details": "{\"applicationId\":\"app_1791801351438\",\"schemeId\":\"sch_mvhs_02\",\"initialScore\":75}",
+      "hash": "8d9d5c3a3a05370ed3b14dd512994e4adfacc6205688cb5d9370acdd82fbfba9",
+      "prevHash": "a7132b977d4f74aaf2a087ac73b4ccde2d764c2f992918f8df32eadd1a2f7f6a",
+      "timestamp": "2026-10-12T10:35:51.451Z"
+    },
+    {
+      "id": "aud_1791801266757_ay3l8",
+      "seq": 26,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "a7132b977d4f74aaf2a087ac73b4ccde2d764c2f992918f8df32eadd1a2f7f6a",
+      "prevHash": "237b0de5e92e5e06128d4f42d5b788c3a925b7596ddbe9c70bc45d00a31efecd",
+      "timestamp": "2026-10-12T10:34:26.755Z"
+    },
+    {
+      "id": "aud_1791782337724_te0y4",
+      "seq": 25,
+      "userId": "usr_verify",
+      "userName": "Officer Varma",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "237b0de5e92e5e06128d4f42d5b788c3a925b7596ddbe9c70bc45d00a31efecd",
+      "prevHash": "6df4e686422160435983e5447053e11b648db80896360ba5e55bdaf33e01d91a",
+      "timestamp": "2026-10-12T05:18:57.724Z"
+    },
+    {
+      "id": "aud_1791782317233_1rxuh",
+      "seq": 24,
+      "userId": "usr_allot",
+      "userName": "Officer Gupta",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "6df4e686422160435983e5447053e11b648db80896360ba5e55bdaf33e01d91a",
+      "prevHash": "7ccab11d3a71edaf5b15016df64837ac0d944335cdf70ebca09339799351acc7",
+      "timestamp": "2026-10-12T05:18:37.233Z"
+    },
+    {
+      "id": "aud_1791782303980_8d4nk",
+      "seq": 23,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "PAYMENT_SUCCESS",
+      "details": "{\"applicationId\":\"app_1791782273308\",\"amount\":500,\"paymentType\":\"Application Fee\",\"transactionId\":\"TXN128331000\"}",
+      "hash": "7ccab11d3a71edaf5b15016df64837ac0d944335cdf70ebca09339799351acc7",
+      "prevHash": "ff99f66a08f4477e734eb4c3e6551244d10adc2b8565dc6497b29bca6a8e1ea6",
+      "timestamp": "2026-10-12T05:18:23.980Z"
+    },
+    {
+      "id": "aud_1791782273420_t13m3",
+      "seq": 22,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791782273308\",\"docType\":\"ph_certificate\",\"docName\":\"ph_certificate_proof.pdf\"}",
+      "hash": "ff99f66a08f4477e734eb4c3e6551244d10adc2b8565dc6497b29bca6a8e1ea6",
+      "prevHash": "98366d0c16987c61e0858dd75c4e4c047b66d4eb27de75ab6e8f159220b44ad3",
+      "timestamp": "2026-10-12T05:17:53.420Z"
+    },
+    {
+      "id": "aud_1791782273391_pkctk",
+      "seq": 21,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791782273308\",\"docType\":\"income_certificate\",\"docName\":\"income_certificate_proof.pdf\"}",
+      "hash": "98366d0c16987c61e0858dd75c4e4c047b66d4eb27de75ab6e8f159220b44ad3",
+      "prevHash": "25bcfd23f1de446eccb98f2b29fff6bffd492b6e7dbbe7f37dd2d1f21ffaaaab",
+      "timestamp": "2026-10-12T05:17:53.391Z"
+    },
+    {
+      "id": "aud_1791782273364_bz9xa",
+      "seq": 20,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791782273308\",\"docType\":\"identity_proof\",\"docName\":\"identity_proof_proof.pdf\"}",
+      "hash": "25bcfd23f1de446eccb98f2b29fff6bffd492b6e7dbbe7f37dd2d1f21ffaaaab",
+      "prevHash": "521f19cd3c723fddf8d32241efa815b23e3c1df2c322873a5ccfbec0c60e5922",
+      "timestamp": "2026-10-12T05:17:53.364Z"
+    },
+    {
+      "id": "aud_1791782273320_uomc6",
+      "seq": 19,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "APPLICATION_DRAFT_CREATE",
+      "details": "{\"applicationId\":\"app_1791782273308\",\"schemeId\":\"sch_mvhs_02\",\"initialScore\":65}",
+      "hash": "521f19cd3c723fddf8d32241efa815b23e3c1df2c322873a5ccfbec0c60e5922",
+      "prevHash": "ace74ed361ef38113371a40734a0c984b37bcd63b51aeea0b6473dc20faf0193",
+      "timestamp": "2026-10-12T05:17:53.320Z"
+    },
+    {
+      "id": "aud_1791782214820_yvdu5",
+      "seq": 18,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "ace74ed361ef38113371a40734a0c984b37bcd63b51aeea0b6473dc20faf0193",
+      "prevHash": "0f771234b28f345129eddd6451ff182dc3c1cb09e48fa2a89d24aa702b3c7eae",
+      "timestamp": "2026-10-12T05:16:54.820Z"
+    },
+    {
+      "id": "aud_1791781978962_qhqgd",
+      "seq": 17,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "0f771234b28f345129eddd6451ff182dc3c1cb09e48fa2a89d24aa702b3c7eae",
+      "prevHash": "e1225869a1e44eaf43b4c8e13c6f9a7ba246308e1aaaf6608fb96dcfd790a8f3",
+      "timestamp": "2026-10-12T05:12:58.962Z"
+    },
+    {
+      "id": "aud_1791781748087_ufvk1",
+      "seq": 16,
+      "userId": "usr_allot",
+      "userName": "Officer Gupta",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "e1225869a1e44eaf43b4c8e13c6f9a7ba246308e1aaaf6608fb96dcfd790a8f3",
+      "prevHash": "25f2f3a90640c8952edfb58149d2327d8f4eec8c4fba571340c30e3d3e3e299b",
+      "timestamp": "2026-10-12T05:09:08.087Z"
+    },
+    {
+      "id": "aud_1791781734092_1s7jl",
+      "seq": 15,
+      "userId": "usr_verify",
+      "userName": "Officer Varma",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "25f2f3a90640c8952edfb58149d2327d8f4eec8c4fba571340c30e3d3e3e299b",
+      "prevHash": "70ad69290250ea2b24748ab0a32d0c833375a6cf1dc6f2ccd1a2c8f67724b0a7",
+      "timestamp": "2026-10-12T05:08:54.091Z"
+    },
+    {
+      "id": "aud_1791781652915_15hmc",
+      "seq": 14,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "70ad69290250ea2b24748ab0a32d0c833375a6cf1dc6f2ccd1a2c8f67724b0a7",
+      "prevHash": "1ade26adb0b2e0ebacd5293d9832f635ed9c82812ec9b4b4a9b16ea4f5487109",
+      "timestamp": "2026-10-12T05:07:32.914Z"
+    },
+    {
+      "id": "aud_1791542389434_m2ihq",
+      "seq": 13,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "1ade26adb0b2e0ebacd5293d9832f635ed9c82812ec9b4b4a9b16ea4f5487109",
+      "prevHash": "2eb1c6c7238376f7a70a12a6be641c6828540993adb3d6b12bafe477cc77288e",
+      "timestamp": "2026-10-09T10:39:49.434Z"
+    },
+    {
+      "id": "aud_1791523765048_s0iwx",
+      "seq": 12,
+      "userId": "usr_app2",
+      "userName": "Priya Patel",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "2eb1c6c7238376f7a70a12a6be641c6828540993adb3d6b12bafe477cc77288e",
+      "prevHash": "f0609e3cb7a8fa438a612aea4da903b007e5ec724435153edb56e184badaf4da",
+      "timestamp": "2026-10-09T05:29:25.048Z"
+    },
+    {
+      "id": "aud_1791516801766_k911x",
+      "seq": 11,
+      "userId": "usr_admin",
+      "userName": "System Admin",
+      "action": "SCHEME_RULES_UPDATED",
+      "details": "{\"schemeId\":\"sch_test_01\",\"schemeName\":\"Test Heights Scheme\",\"previousVersion\":1,\"newVersion\":2,\"ruleCount\":6,\"applicationsRescored\":13}",
+      "hash": "511a606c8d615e45d01128731abb5658aa70d2a692f93f2ba25f1e1398df3b1e",
+      "prevHash": "a72a4faa21b0d45fe2ac342726aedbe39785b94de75151cc80c30ad351cd515e",
+      "timestamp": "2026-10-09T03:33:21.766Z"
+    },
+    {
+      "id": "aud_1791516735835_o22eg",
+      "seq": 10,
+      "userId": "usr_admin",
+      "userName": "System Admin",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "a72a4faa21b0d45fe2ac342726aedbe39785b94de75151cc80c30ad351cd515e",
+      "prevHash": "42b0d78abf643ffb034e692fa512a0dcd21b1b49ebfc848e278c9b733e5dc0fb",
+      "timestamp": "2026-10-09T03:32:15.835Z"
+    },
+    {
+      "id": "aud_1791516579252_ww99o",
+      "seq": 9,
+      "userId": "usr_super",
+      "userName": "Super Admin",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "42b0d78abf643ffb034e692fa512a0dcd21b1b49ebfc848e278c9b733e5dc0fb",
+      "prevHash": "e371a87e2824fa747b29933ced4b404cc89249a5874fd53bbe88b86a5de3fb57",
+      "timestamp": "2026-10-09T03:29:39.252Z"
+    },
+    {
+      "id": "aud_1791516513389_tql0e",
+      "seq": 8,
+      "userId": "usr_allot",
+      "userName": "Officer Gupta",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "e371a87e2824fa747b29933ced4b404cc89249a5874fd53bbe88b86a5de3fb57",
+      "prevHash": "49564c7c4c04b91697d82730055d2f616cecbf03db028c22b9e77a5f797f0bda",
+      "timestamp": "2026-10-09T03:28:33.389Z"
+    },
+    {
+      "id": "aud_1791516471305_6s86a",
+      "seq": 7,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "PAYMENT_SUCCESS",
+      "details": "{\"applicationId\":\"app_1791516463783\",\"amount\":500,\"paymentType\":\"Application Fee\",\"transactionId\":\"TXN223018040\"}",
+      "hash": "49564c7c4c04b91697d82730055d2f616cecbf03db028c22b9e77a5f797f0bda",
+      "prevHash": "b5f14e7cfa4cfa45cfccdfa8b1261611ba6c7ebc43e355b3e8738dd1b5e4e0a9",
+      "timestamp": "2026-10-09T03:27:51.305Z"
+    },
+    {
+      "id": "aud_1791516463878_2k6qz",
+      "seq": 6,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791516463783\",\"docType\":\"ph_certificate\",\"docName\":\"ph_certificate_proof.pdf\"}",
+      "hash": "b5f14e7cfa4cfa45cfccdfa8b1261611ba6c7ebc43e355b3e8738dd1b5e4e0a9",
+      "prevHash": "700e678d4caf45865231573c03f210c3bd2dd43674cde40d41dbc0a76208735a",
+      "timestamp": "2026-10-09T03:27:43.878Z"
+    },
+    {
+      "id": "aud_1791516463849_d6ekw",
+      "seq": 5,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791516463783\",\"docType\":\"income_certificate\",\"docName\":\"income_certificate_proof.pdf\"}",
+      "hash": "700e678d4caf45865231573c03f210c3bd2dd43674cde40d41dbc0a76208735a",
+      "prevHash": "38967701a8aa5a0a0cbd2176c3634bbde375bfcddd0950513352ae8b30d0a1b2",
+      "timestamp": "2026-10-09T03:27:43.849Z"
+    },
+    {
+      "id": "aud_1791516463830_bm48r",
+      "seq": 4,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "DOCUMENT_UPLOAD",
+      "details": "{\"applicationId\":\"app_1791516463783\",\"docType\":\"identity_proof\",\"docName\":\"identity_proof_proof.pdf\"}",
+      "hash": "38967701a8aa5a0a0cbd2176c3634bbde375bfcddd0950513352ae8b30d0a1b2",
+      "prevHash": "f8b7658c04757af697081743b216df61f631e3fb7b36b3250df832497dd1ed4f",
+      "timestamp": "2026-10-09T03:27:43.830Z"
+    },
+    {
+      "id": "aud_1791516463792_9juvt",
+      "seq": 3,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "APPLICATION_DRAFT_CREATE",
+      "details": "{\"applicationId\":\"app_1791516463783\",\"schemeId\":\"sch_pmay_01\",\"initialScore\":75}",
+      "hash": "f8b7658c04757af697081743b216df61f631e3fb7b36b3250df832497dd1ed4f",
+      "prevHash": "fda9accfe88410b04f5b1880705e3cd9ee2abe37da38f49a19e5c245d4b5ebc2",
+      "timestamp": "2026-10-09T03:27:43.792Z"
+    },
+    {
+      "id": "aud_1791516421307_xopr5",
+      "seq": 2,
+      "userId": "usr_app1",
+      "userName": "Rajesh Kumar",
+      "action": "USER_LOGIN",
+      "details": "{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"}",
+      "hash": "fda9accfe88410b04f5b1880705e3cd9ee2abe37da38f49a19e5c245d4b5ebc2",
+      "prevHash": "bd620efcd188c5cb574ac7576bdd8ca430bed5fe0913a7a6a38183582e8f4f06",
+      "timestamp": "2026-10-09T03:27:01.306Z"
+    }
+  ],
+  "audit_ledger": [
+    {
+      "seq": 1,
+      "actorId": "SYSTEM",
+      "action": "GENESIS_INITIALIZATION",
+      "payload": {
+        "organization": "Tamil Nadu Housing Board",
+        "module": "Cryptographic Transparent Allotment Ledger",
+        "specVersion": "2.0-Innovations"
+      },
+      "ts": "2026-10-09T02:51:54.612Z",
+      "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "bd620efcd188c5cb574ac7576bdd8ca430bed5fe0913a7a6a38183582e8f4f06",
+      "canonicalData": "{\"seq\":1,\"actorId\":\"SYSTEM\",\"action\":\"GENESIS_INITIALIZATION\",\"payload\":{\"organization\":\"Tamil Nadu Housing Board\",\"module\":\"Cryptographic Transparent Allotment Ledger\",\"specVersion\":\"2.0-Innovations\"},\"ts\":\"2026-10-09T02:51:54.612Z\",\"prevHash\":\"0000000000000000000000000000000000000000000000000000000000000000\"}"
+    },
+    {
+      "seq": 2,
+      "actorId": "usr_app1",
+      "action": "USER_LOGIN",
+      "payload": {
+        "note": "Forged allotment record inserted directly into database"
+      },
+      "ts": "2026-10-09T03:27:01.306Z",
+      "prevHash": "bd620efcd188c5cb574ac7576bdd8ca430bed5fe0913a7a6a38183582e8f4f06",
+      "hash": "9e22d6391a86fd66550c5857f0c6ed0b8704a23c98d29c85d7122eee8fbba5f1",
+      "canonicalData": "{\"seq\":2,\"actorId\":\"usr_app1\",\"action\":\"USER_LOGIN\",\"payload\":{\"note\":\"Forged allotment record inserted directly into database\"},\"ts\":\"2026-10-09T03:27:01.306Z\",\"prevHash\":\"bd620efcd188c5cb574ac7576bdd8ca430bed5fe0913a7a6a38183582e8f4f06\"}"
+    },
+    {
+      "seq": 3,
+      "actorId": "usr_app1",
+      "action": "APPLICATION_DRAFT_CREATE",
+      "payload": {
+        "applicationId": "app_1791516463783",
+        "schemeId": "sch_pmay_01",
+        "initialScore": 75
+      },
+      "ts": "2026-10-09T03:27:43.792Z",
+      "prevHash": "9e22d6391a86fd66550c5857f0c6ed0b8704a23c98d29c85d7122eee8fbba5f1",
+      "hash": "d0f9c0a6f6da1119d2da5600b2912a73f5f143b30e0f3cce9cd9041f31dc7ef4",
+      "canonicalData": "{\"seq\":3,\"actorId\":\"usr_app1\",\"action\":\"APPLICATION_DRAFT_CREATE\",\"payload\":{\"applicationId\":\"app_1791516463783\",\"schemeId\":\"sch_pmay_01\",\"initialScore\":75},\"ts\":\"2026-10-09T03:27:43.792Z\",\"prevHash\":\"9e22d6391a86fd66550c5857f0c6ed0b8704a23c98d29c85d7122eee8fbba5f1\"}"
+    },
+    {
+      "seq": 4,
+      "actorId": "usr_app1",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791516463783",
+        "docType": "identity_proof",
+        "docName": "identity_proof_proof.pdf"
+      },
+      "ts": "2026-10-09T03:27:43.830Z",
+      "prevHash": "d0f9c0a6f6da1119d2da5600b2912a73f5f143b30e0f3cce9cd9041f31dc7ef4",
+      "hash": "a443f013e50555414a781dc1247de17262c3d703d9b05e4857fead5a40ddd803",
+      "canonicalData": "{\"seq\":4,\"actorId\":\"usr_app1\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791516463783\",\"docType\":\"identity_proof\",\"docName\":\"identity_proof_proof.pdf\"},\"ts\":\"2026-10-09T03:27:43.830Z\",\"prevHash\":\"d0f9c0a6f6da1119d2da5600b2912a73f5f143b30e0f3cce9cd9041f31dc7ef4\"}"
+    },
+    {
+      "seq": 5,
+      "actorId": "usr_app1",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791516463783",
+        "docType": "income_certificate",
+        "docName": "income_certificate_proof.pdf"
+      },
+      "ts": "2026-10-09T03:27:43.849Z",
+      "prevHash": "a443f013e50555414a781dc1247de17262c3d703d9b05e4857fead5a40ddd803",
+      "hash": "75073b0533a80459be8e54cc5122795bb14b08618011de0f1cc433b94cf725b2",
+      "canonicalData": "{\"seq\":5,\"actorId\":\"usr_app1\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791516463783\",\"docType\":\"income_certificate\",\"docName\":\"income_certificate_proof.pdf\"},\"ts\":\"2026-10-09T03:27:43.849Z\",\"prevHash\":\"a443f013e50555414a781dc1247de17262c3d703d9b05e4857fead5a40ddd803\"}"
+    },
+    {
+      "seq": 6,
+      "actorId": "usr_app1",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791516463783",
+        "docType": "ph_certificate",
+        "docName": "ph_certificate_proof.pdf"
+      },
+      "ts": "2026-10-09T03:27:43.878Z",
+      "prevHash": "75073b0533a80459be8e54cc5122795bb14b08618011de0f1cc433b94cf725b2",
+      "hash": "c32857a1bf778313b8b48edb63a4974ba82f160a453f29b33d5b3c7a755176d2",
+      "canonicalData": "{\"seq\":6,\"actorId\":\"usr_app1\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791516463783\",\"docType\":\"ph_certificate\",\"docName\":\"ph_certificate_proof.pdf\"},\"ts\":\"2026-10-09T03:27:43.878Z\",\"prevHash\":\"75073b0533a80459be8e54cc5122795bb14b08618011de0f1cc433b94cf725b2\"}"
+    },
+    {
+      "seq": 7,
+      "actorId": "usr_app1",
+      "action": "PAYMENT_SUCCESS",
+      "payload": {
+        "applicationId": "app_1791516463783",
+        "amount": 500,
+        "paymentType": "Application Fee",
+        "transactionId": "TXN223018040"
+      },
+      "ts": "2026-10-09T03:27:51.305Z",
+      "prevHash": "c32857a1bf778313b8b48edb63a4974ba82f160a453f29b33d5b3c7a755176d2",
+      "hash": "c61b4aa63001c160be6f949ef92d8b67dc4ab9e15d1d0c0225945955232a543d",
+      "canonicalData": "{\"seq\":7,\"actorId\":\"usr_app1\",\"action\":\"PAYMENT_SUCCESS\",\"payload\":{\"applicationId\":\"app_1791516463783\",\"amount\":500,\"paymentType\":\"Application Fee\",\"transactionId\":\"TXN223018040\"},\"ts\":\"2026-10-09T03:27:51.305Z\",\"prevHash\":\"c32857a1bf778313b8b48edb63a4974ba82f160a453f29b33d5b3c7a755176d2\"}"
+    },
+    {
+      "seq": 8,
+      "actorId": "usr_allot",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-09T03:28:33.389Z",
+      "prevHash": "c61b4aa63001c160be6f949ef92d8b67dc4ab9e15d1d0c0225945955232a543d",
+      "hash": "5c066c5aff50a57f473a7c986d5f9ec06a19123a26ec03c566eaf4f62231f6e3",
+      "canonicalData": "{\"seq\":8,\"actorId\":\"usr_allot\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-09T03:28:33.389Z\",\"prevHash\":\"c61b4aa63001c160be6f949ef92d8b67dc4ab9e15d1d0c0225945955232a543d\"}"
+    },
+    {
+      "seq": 9,
+      "actorId": "usr_super",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-09T03:29:39.252Z",
+      "prevHash": "5c066c5aff50a57f473a7c986d5f9ec06a19123a26ec03c566eaf4f62231f6e3",
+      "hash": "3b18bfed797c78e2a8206a46bff029a2cfb88394ce8da157342119adf6de80fc",
+      "canonicalData": "{\"seq\":9,\"actorId\":\"usr_super\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-09T03:29:39.252Z\",\"prevHash\":\"5c066c5aff50a57f473a7c986d5f9ec06a19123a26ec03c566eaf4f62231f6e3\"}"
+    },
+    {
+      "seq": 10,
+      "actorId": "usr_admin",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-09T03:32:15.835Z",
+      "prevHash": "3b18bfed797c78e2a8206a46bff029a2cfb88394ce8da157342119adf6de80fc",
+      "hash": "2591ce0bb882b995c25fd9ef74bbf1b51cb12b85da8047b7030535633594250d",
+      "canonicalData": "{\"seq\":10,\"actorId\":\"usr_admin\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-09T03:32:15.835Z\",\"prevHash\":\"3b18bfed797c78e2a8206a46bff029a2cfb88394ce8da157342119adf6de80fc\"}"
+    },
+    {
+      "seq": 11,
+      "actorId": "usr_admin",
+      "action": "SCHEME_RULES_UPDATED",
+      "payload": {
+        "schemeId": "sch_test_01",
+        "schemeName": "Test Heights Scheme",
+        "previousVersion": 1,
+        "newVersion": 2,
+        "ruleCount": 6,
+        "applicationsRescored": 13
+      },
+      "ts": "2026-10-09T03:33:21.766Z",
+      "prevHash": "2591ce0bb882b995c25fd9ef74bbf1b51cb12b85da8047b7030535633594250d",
+      "hash": "f0609e3cb7a8fa438a612aea4da903b007e5ec724435153edb56e184badaf4da",
+      "canonicalData": "{\"seq\":11,\"actorId\":\"usr_admin\",\"action\":\"SCHEME_RULES_UPDATED\",\"payload\":{\"schemeId\":\"sch_test_01\",\"schemeName\":\"Test Heights Scheme\",\"previousVersion\":1,\"newVersion\":2,\"ruleCount\":6,\"applicationsRescored\":13},\"ts\":\"2026-10-09T03:33:21.766Z\",\"prevHash\":\"2591ce0bb882b995c25fd9ef74bbf1b51cb12b85da8047b7030535633594250d\"}"
+    },
+    {
+      "seq": 12,
+      "actorId": "usr_app2",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-09T05:29:25.048Z",
+      "prevHash": "f0609e3cb7a8fa438a612aea4da903b007e5ec724435153edb56e184badaf4da",
+      "hash": "2eb1c6c7238376f7a70a12a6be641c6828540993adb3d6b12bafe477cc77288e",
+      "canonicalData": "{\"seq\":12,\"actorId\":\"usr_app2\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-09T05:29:25.048Z\",\"prevHash\":\"f0609e3cb7a8fa438a612aea4da903b007e5ec724435153edb56e184badaf4da\"}"
+    },
+    {
+      "seq": 13,
+      "actorId": "usr_app1",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-09T10:39:49.434Z",
+      "prevHash": "2eb1c6c7238376f7a70a12a6be641c6828540993adb3d6b12bafe477cc77288e",
+      "hash": "1ade26adb0b2e0ebacd5293d9832f635ed9c82812ec9b4b4a9b16ea4f5487109",
+      "canonicalData": "{\"seq\":13,\"actorId\":\"usr_app1\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-09T10:39:49.434Z\",\"prevHash\":\"2eb1c6c7238376f7a70a12a6be641c6828540993adb3d6b12bafe477cc77288e\"}"
+    },
+    {
+      "seq": 14,
+      "actorId": "usr_app2",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T05:07:32.914Z",
+      "prevHash": "1ade26adb0b2e0ebacd5293d9832f635ed9c82812ec9b4b4a9b16ea4f5487109",
+      "hash": "70ad69290250ea2b24748ab0a32d0c833375a6cf1dc6f2ccd1a2c8f67724b0a7",
+      "canonicalData": "{\"seq\":14,\"actorId\":\"usr_app2\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T05:07:32.914Z\",\"prevHash\":\"1ade26adb0b2e0ebacd5293d9832f635ed9c82812ec9b4b4a9b16ea4f5487109\"}"
+    },
+    {
+      "seq": 15,
+      "actorId": "usr_verify",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T05:08:54.091Z",
+      "prevHash": "70ad69290250ea2b24748ab0a32d0c833375a6cf1dc6f2ccd1a2c8f67724b0a7",
+      "hash": "25f2f3a90640c8952edfb58149d2327d8f4eec8c4fba571340c30e3d3e3e299b",
+      "canonicalData": "{\"seq\":15,\"actorId\":\"usr_verify\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T05:08:54.091Z\",\"prevHash\":\"70ad69290250ea2b24748ab0a32d0c833375a6cf1dc6f2ccd1a2c8f67724b0a7\"}"
+    },
+    {
+      "seq": 16,
+      "actorId": "usr_allot",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T05:09:08.087Z",
+      "prevHash": "25f2f3a90640c8952edfb58149d2327d8f4eec8c4fba571340c30e3d3e3e299b",
+      "hash": "e1225869a1e44eaf43b4c8e13c6f9a7ba246308e1aaaf6608fb96dcfd790a8f3",
+      "canonicalData": "{\"seq\":16,\"actorId\":\"usr_allot\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T05:09:08.087Z\",\"prevHash\":\"25f2f3a90640c8952edfb58149d2327d8f4eec8c4fba571340c30e3d3e3e299b\"}"
+    },
+    {
+      "seq": 17,
+      "actorId": "usr_app1",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T05:12:58.962Z",
+      "prevHash": "e1225869a1e44eaf43b4c8e13c6f9a7ba246308e1aaaf6608fb96dcfd790a8f3",
+      "hash": "0f771234b28f345129eddd6451ff182dc3c1cb09e48fa2a89d24aa702b3c7eae",
+      "canonicalData": "{\"seq\":17,\"actorId\":\"usr_app1\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T05:12:58.962Z\",\"prevHash\":\"e1225869a1e44eaf43b4c8e13c6f9a7ba246308e1aaaf6608fb96dcfd790a8f3\"}"
+    },
+    {
+      "seq": 18,
+      "actorId": "usr_app1",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T05:16:54.820Z",
+      "prevHash": "0f771234b28f345129eddd6451ff182dc3c1cb09e48fa2a89d24aa702b3c7eae",
+      "hash": "ace74ed361ef38113371a40734a0c984b37bcd63b51aeea0b6473dc20faf0193",
+      "canonicalData": "{\"seq\":18,\"actorId\":\"usr_app1\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T05:16:54.820Z\",\"prevHash\":\"0f771234b28f345129eddd6451ff182dc3c1cb09e48fa2a89d24aa702b3c7eae\"}"
+    },
+    {
+      "seq": 19,
+      "actorId": "usr_app1",
+      "action": "APPLICATION_DRAFT_CREATE",
+      "payload": {
+        "applicationId": "app_1791782273308",
+        "schemeId": "sch_mvhs_02",
+        "initialScore": 65
+      },
+      "ts": "2026-10-12T05:17:53.320Z",
+      "prevHash": "ace74ed361ef38113371a40734a0c984b37bcd63b51aeea0b6473dc20faf0193",
+      "hash": "521f19cd3c723fddf8d32241efa815b23e3c1df2c322873a5ccfbec0c60e5922",
+      "canonicalData": "{\"seq\":19,\"actorId\":\"usr_app1\",\"action\":\"APPLICATION_DRAFT_CREATE\",\"payload\":{\"applicationId\":\"app_1791782273308\",\"schemeId\":\"sch_mvhs_02\",\"initialScore\":65},\"ts\":\"2026-10-12T05:17:53.320Z\",\"prevHash\":\"ace74ed361ef38113371a40734a0c984b37bcd63b51aeea0b6473dc20faf0193\"}"
+    },
+    {
+      "seq": 20,
+      "actorId": "usr_app1",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791782273308",
+        "docType": "identity_proof",
+        "docName": "identity_proof_proof.pdf"
+      },
+      "ts": "2026-10-12T05:17:53.364Z",
+      "prevHash": "521f19cd3c723fddf8d32241efa815b23e3c1df2c322873a5ccfbec0c60e5922",
+      "hash": "25bcfd23f1de446eccb98f2b29fff6bffd492b6e7dbbe7f37dd2d1f21ffaaaab",
+      "canonicalData": "{\"seq\":20,\"actorId\":\"usr_app1\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791782273308\",\"docType\":\"identity_proof\",\"docName\":\"identity_proof_proof.pdf\"},\"ts\":\"2026-10-12T05:17:53.364Z\",\"prevHash\":\"521f19cd3c723fddf8d32241efa815b23e3c1df2c322873a5ccfbec0c60e5922\"}"
+    },
+    {
+      "seq": 21,
+      "actorId": "usr_app1",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791782273308",
+        "docType": "income_certificate",
+        "docName": "income_certificate_proof.pdf"
+      },
+      "ts": "2026-10-12T05:17:53.391Z",
+      "prevHash": "25bcfd23f1de446eccb98f2b29fff6bffd492b6e7dbbe7f37dd2d1f21ffaaaab",
+      "hash": "98366d0c16987c61e0858dd75c4e4c047b66d4eb27de75ab6e8f159220b44ad3",
+      "canonicalData": "{\"seq\":21,\"actorId\":\"usr_app1\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791782273308\",\"docType\":\"income_certificate\",\"docName\":\"income_certificate_proof.pdf\"},\"ts\":\"2026-10-12T05:17:53.391Z\",\"prevHash\":\"25bcfd23f1de446eccb98f2b29fff6bffd492b6e7dbbe7f37dd2d1f21ffaaaab\"}"
+    },
+    {
+      "seq": 22,
+      "actorId": "usr_app1",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791782273308",
+        "docType": "ph_certificate",
+        "docName": "ph_certificate_proof.pdf"
+      },
+      "ts": "2026-10-12T05:17:53.420Z",
+      "prevHash": "98366d0c16987c61e0858dd75c4e4c047b66d4eb27de75ab6e8f159220b44ad3",
+      "hash": "ff99f66a08f4477e734eb4c3e6551244d10adc2b8565dc6497b29bca6a8e1ea6",
+      "canonicalData": "{\"seq\":22,\"actorId\":\"usr_app1\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791782273308\",\"docType\":\"ph_certificate\",\"docName\":\"ph_certificate_proof.pdf\"},\"ts\":\"2026-10-12T05:17:53.420Z\",\"prevHash\":\"98366d0c16987c61e0858dd75c4e4c047b66d4eb27de75ab6e8f159220b44ad3\"}"
+    },
+    {
+      "seq": 23,
+      "actorId": "usr_app1",
+      "action": "PAYMENT_SUCCESS",
+      "payload": {
+        "applicationId": "app_1791782273308",
+        "amount": 500,
+        "paymentType": "Application Fee",
+        "transactionId": "TXN128331000"
+      },
+      "ts": "2026-10-12T05:18:23.980Z",
+      "prevHash": "ff99f66a08f4477e734eb4c3e6551244d10adc2b8565dc6497b29bca6a8e1ea6",
+      "hash": "7ccab11d3a71edaf5b15016df64837ac0d944335cdf70ebca09339799351acc7",
+      "canonicalData": "{\"seq\":23,\"actorId\":\"usr_app1\",\"action\":\"PAYMENT_SUCCESS\",\"payload\":{\"applicationId\":\"app_1791782273308\",\"amount\":500,\"paymentType\":\"Application Fee\",\"transactionId\":\"TXN128331000\"},\"ts\":\"2026-10-12T05:18:23.980Z\",\"prevHash\":\"ff99f66a08f4477e734eb4c3e6551244d10adc2b8565dc6497b29bca6a8e1ea6\"}"
+    },
+    {
+      "seq": 24,
+      "actorId": "usr_allot",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T05:18:37.233Z",
+      "prevHash": "7ccab11d3a71edaf5b15016df64837ac0d944335cdf70ebca09339799351acc7",
+      "hash": "6df4e686422160435983e5447053e11b648db80896360ba5e55bdaf33e01d91a",
+      "canonicalData": "{\"seq\":24,\"actorId\":\"usr_allot\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T05:18:37.233Z\",\"prevHash\":\"7ccab11d3a71edaf5b15016df64837ac0d944335cdf70ebca09339799351acc7\"}"
+    },
+    {
+      "seq": 25,
+      "actorId": "usr_verify",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T05:18:57.724Z",
+      "prevHash": "6df4e686422160435983e5447053e11b648db80896360ba5e55bdaf33e01d91a",
+      "hash": "237b0de5e92e5e06128d4f42d5b788c3a925b7596ddbe9c70bc45d00a31efecd",
+      "canonicalData": "{\"seq\":25,\"actorId\":\"usr_verify\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T05:18:57.724Z\",\"prevHash\":\"6df4e686422160435983e5447053e11b648db80896360ba5e55bdaf33e01d91a\"}"
+    },
+    {
+      "seq": 26,
+      "actorId": "usr_app2",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T10:34:26.755Z",
+      "prevHash": "237b0de5e92e5e06128d4f42d5b788c3a925b7596ddbe9c70bc45d00a31efecd",
+      "hash": "a7132b977d4f74aaf2a087ac73b4ccde2d764c2f992918f8df32eadd1a2f7f6a",
+      "canonicalData": "{\"seq\":26,\"actorId\":\"usr_app2\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T10:34:26.755Z\",\"prevHash\":\"237b0de5e92e5e06128d4f42d5b788c3a925b7596ddbe9c70bc45d00a31efecd\"}"
+    },
+    {
+      "seq": 27,
+      "actorId": "usr_app2",
+      "action": "APPLICATION_DRAFT_CREATE",
+      "payload": {
+        "applicationId": "app_1791801351438",
+        "schemeId": "sch_mvhs_02",
+        "initialScore": 75
+      },
+      "ts": "2026-10-12T10:35:51.451Z",
+      "prevHash": "a7132b977d4f74aaf2a087ac73b4ccde2d764c2f992918f8df32eadd1a2f7f6a",
+      "hash": "8d9d5c3a3a05370ed3b14dd512994e4adfacc6205688cb5d9370acdd82fbfba9",
+      "canonicalData": "{\"seq\":27,\"actorId\":\"usr_app2\",\"action\":\"APPLICATION_DRAFT_CREATE\",\"payload\":{\"applicationId\":\"app_1791801351438\",\"schemeId\":\"sch_mvhs_02\",\"initialScore\":75},\"ts\":\"2026-10-12T10:35:51.451Z\",\"prevHash\":\"a7132b977d4f74aaf2a087ac73b4ccde2d764c2f992918f8df32eadd1a2f7f6a\"}"
+    },
+    {
+      "seq": 28,
+      "actorId": "usr_app2",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791801351438",
+        "docType": "identity_proof",
+        "docName": "identity_proof_proof.pdf"
+      },
+      "ts": "2026-10-12T10:35:51.493Z",
+      "prevHash": "8d9d5c3a3a05370ed3b14dd512994e4adfacc6205688cb5d9370acdd82fbfba9",
+      "hash": "78c4a6113a35789d0c0a806522dc7eec68efdec44d41d828095d661925021369",
+      "canonicalData": "{\"seq\":28,\"actorId\":\"usr_app2\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791801351438\",\"docType\":\"identity_proof\",\"docName\":\"identity_proof_proof.pdf\"},\"ts\":\"2026-10-12T10:35:51.493Z\",\"prevHash\":\"8d9d5c3a3a05370ed3b14dd512994e4adfacc6205688cb5d9370acdd82fbfba9\"}"
+    },
+    {
+      "seq": 29,
+      "actorId": "usr_app2",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791801351438",
+        "docType": "income_certificate",
+        "docName": "income_certificate_proof.pdf"
+      },
+      "ts": "2026-10-12T10:35:51.521Z",
+      "prevHash": "78c4a6113a35789d0c0a806522dc7eec68efdec44d41d828095d661925021369",
+      "hash": "c86254a2bed4a5137bc420acc9eb4a5facc0c6bd7a13068ed4c6ae16b301eee9",
+      "canonicalData": "{\"seq\":29,\"actorId\":\"usr_app2\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791801351438\",\"docType\":\"income_certificate\",\"docName\":\"income_certificate_proof.pdf\"},\"ts\":\"2026-10-12T10:35:51.521Z\",\"prevHash\":\"78c4a6113a35789d0c0a806522dc7eec68efdec44d41d828095d661925021369\"}"
+    },
+    {
+      "seq": 30,
+      "actorId": "usr_app2",
+      "action": "DOCUMENT_UPLOAD",
+      "payload": {
+        "applicationId": "app_1791801351438",
+        "docType": "ph_certificate",
+        "docName": "ph_certificate_proof.pdf"
+      },
+      "ts": "2026-10-12T10:35:51.549Z",
+      "prevHash": "c86254a2bed4a5137bc420acc9eb4a5facc0c6bd7a13068ed4c6ae16b301eee9",
+      "hash": "65e2b6fb5ae657060ae0116798c81fa8e48395ddf528ae9bc1c035b8a2ce4952",
+      "canonicalData": "{\"seq\":30,\"actorId\":\"usr_app2\",\"action\":\"DOCUMENT_UPLOAD\",\"payload\":{\"applicationId\":\"app_1791801351438\",\"docType\":\"ph_certificate\",\"docName\":\"ph_certificate_proof.pdf\"},\"ts\":\"2026-10-12T10:35:51.549Z\",\"prevHash\":\"c86254a2bed4a5137bc420acc9eb4a5facc0c6bd7a13068ed4c6ae16b301eee9\"}"
+    },
+    {
+      "seq": 31,
+      "actorId": "usr_app2",
+      "action": "PAYMENT_SUCCESS",
+      "payload": {
+        "applicationId": "app_1791801351438",
+        "amount": 500,
+        "paymentType": "Application Fee",
+        "transactionId": "TXN964195114"
+      },
+      "ts": "2026-10-12T10:35:59.715Z",
+      "prevHash": "65e2b6fb5ae657060ae0116798c81fa8e48395ddf528ae9bc1c035b8a2ce4952",
+      "hash": "9d2fecde085f7165b5ee641db0aaf302d46c8d3a9e909a9a6449512072d95606",
+      "canonicalData": "{\"seq\":31,\"actorId\":\"usr_app2\",\"action\":\"PAYMENT_SUCCESS\",\"payload\":{\"applicationId\":\"app_1791801351438\",\"amount\":500,\"paymentType\":\"Application Fee\",\"transactionId\":\"TXN964195114\"},\"ts\":\"2026-10-12T10:35:59.715Z\",\"prevHash\":\"65e2b6fb5ae657060ae0116798c81fa8e48395ddf528ae9bc1c035b8a2ce4952\"}"
+    },
+    {
+      "seq": 32,
+      "actorId": "usr_allot",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T10:36:12.222Z",
+      "prevHash": "9d2fecde085f7165b5ee641db0aaf302d46c8d3a9e909a9a6449512072d95606",
+      "hash": "0e2d36995fd85014a9c6ba9521bdf4f05201c530474769f1f7d5680adca0ed80",
+      "canonicalData": "{\"seq\":32,\"actorId\":\"usr_allot\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T10:36:12.222Z\",\"prevHash\":\"9d2fecde085f7165b5ee641db0aaf302d46c8d3a9e909a9a6449512072d95606\"}"
+    },
+    {
+      "seq": 33,
+      "actorId": "usr_allot",
+      "action": "ALLOTMENT_EXECUTE",
+      "payload": {
+        "allotmentId": "alt_1791801387011",
+        "schemeId": "sch_pmay_01",
+        "schemeName": "Pradhan Mantri Awas Yojana - Phase II",
+        "allottedCount": 1,
+        "waitlistCount": 0,
+        "topScore": 75,
+        "offerDeadline": "2026-10-15T10:36:26.999Z"
+      },
+      "ts": "2026-10-12T10:36:27.027Z",
+      "prevHash": "0e2d36995fd85014a9c6ba9521bdf4f05201c530474769f1f7d5680adca0ed80",
+      "hash": "b0c25fef652254db9c3cede2c96fc835a60bf3795b83e5c3d89338fe89e2c136",
+      "canonicalData": "{\"seq\":33,\"actorId\":\"usr_allot\",\"action\":\"ALLOTMENT_EXECUTE\",\"payload\":{\"allotmentId\":\"alt_1791801387011\",\"schemeId\":\"sch_pmay_01\",\"schemeName\":\"Pradhan Mantri Awas Yojana - Phase II\",\"allottedCount\":1,\"waitlistCount\":0,\"topScore\":75,\"offerDeadline\":\"2026-10-15T10:36:26.999Z\"},\"ts\":\"2026-10-12T10:36:27.027Z\",\"prevHash\":\"0e2d36995fd85014a9c6ba9521bdf4f05201c530474769f1f7d5680adca0ed80\"}"
+    },
+    {
+      "seq": 34,
+      "actorId": "usr_allot",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T10:36:48.160Z",
+      "prevHash": "b0c25fef652254db9c3cede2c96fc835a60bf3795b83e5c3d89338fe89e2c136",
+      "hash": "befa3524c7c11148d8fe958d4c6bb2e01bfc359d0717a652c2967b3a9d348da2",
+      "canonicalData": "{\"seq\":34,\"actorId\":\"usr_allot\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T10:36:48.160Z\",\"prevHash\":\"b0c25fef652254db9c3cede2c96fc835a60bf3795b83e5c3d89338fe89e2c136\"}"
+    },
+    {
+      "seq": 35,
+      "actorId": "usr_verify",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-12T10:36:53.115Z",
+      "prevHash": "befa3524c7c11148d8fe958d4c6bb2e01bfc359d0717a652c2967b3a9d348da2",
+      "hash": "0750f4ab6e077ab67a29382f0f9ff12f4b098300da8c2518db63af26502b2569",
+      "canonicalData": "{\"seq\":35,\"actorId\":\"usr_verify\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-12T10:36:53.115Z\",\"prevHash\":\"befa3524c7c11148d8fe958d4c6bb2e01bfc359d0717a652c2967b3a9d348da2\"}"
+    },
+    {
+      "seq": 36,
+      "actorId": "usr_app1",
+      "action": "USER_LOGIN",
+      "payload": {
+        "details": "User logged in securely using password",
+        "ipAddress": "127.0.0.1"
+      },
+      "ts": "2026-10-28T04:32:49.284Z",
+      "prevHash": "0750f4ab6e077ab67a29382f0f9ff12f4b098300da8c2518db63af26502b2569",
+      "hash": "f3de0592aa6911e0e4c1b4a1b97f8ad9c6f65fc84f43eb08112eb056ffdc17be",
+      "canonicalData": "{\"seq\":36,\"actorId\":\"usr_app1\",\"action\":\"USER_LOGIN\",\"payload\":{\"details\":\"User logged in securely using password\",\"ipAddress\":\"127.0.0.1\"},\"ts\":\"2026-10-28T04:32:49.284Z\",\"prevHash\":\"0750f4ab6e077ab67a29382f0f9ff12f4b098300da8c2518db63af26502b2569\"}"
+    }
+  ],
+  "chat_tickets": []
+}
